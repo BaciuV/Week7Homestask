@@ -1,0 +1,275 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    width: 75%;
+    text-align: center;    
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.image-container {   
+    clip-path: circle(50% at 50% 50%);
+    background-image: url('../img/profile1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+    width: 450px;
+    margin: 0rem auto;  
+}
+
+.navigation ul li {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    width: 16rem;
+    margin: 3rem 0;
+}
+
+.navigation ul li:not(:last-child) {
+    margin-right: 6rem;
+}
+
+
+.main-container {
+    margin: 0 auto;
+    width: 75%;
+}
+
+.main-container div {
+    margin-bottom: 2rem;
+}
+
+.main-container h1 {
+    margin-bottom: 5rem;
+}
+
+.main-container p {
+    text-align: justify;
+}
+
+.footer {
+    font-size: 2rem;
+    padding: 2rem;
+}
+
+.footer ul {
+    list-style: none;
+    margin-bottom: 3rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+.footer ul a {
+    color: #777;
+    text-decoration: none;
+}
+
+
+@media (min-width: 480px) {
+    .image-container {
+        background-image: url(../img/profile1.jpg) ;
+
+    }
+
+    /*change image-container background image*/
+    /*change document's background colour*/
+    /*change document's text colour*/
+    /*do not forget about borders!*/
+
+    .container {
+        background-color: aquamarine;
+        width: 100%;
+    }
+    
+    .header h1 {
+        color: blue;
+    }
+
+    .navigation ul li {
+        display: block;
+        font-size: 1rem;
+        margin: 0;
+        width: 100%;
+    }
+    .navigation ul li:not(:last-child) {
+        border: 1px solid blue;
+
+    }
+
+    .main-container {
+        padding: 0.75rem;
+        width: 100%;
+        color: blue;
+    }
+
+    .main-container h1 {
+        margin: 1rem auto;
+    }
+
+    .footer ul li a {
+        color: blue;
+    }
+    
+}
+
+
+@media (min-width: 768px) {
+    .image-container {
+        background-image: url(../img/profile3.jpg)
+
+    /*change image-container background image*/
+    /*change document's background colour*/
+    /*change document's text colour*/
+    /*do not forget about borders!*/
+    }
+
+.container {
+    background-color: #90EE90;
+}
+
+.header h1 {
+    
+    color: #2F4F4F;
+}    
+
+.footer {
+    color: #2F4F4F;
+}
+
+.footer ul li a {
+    color: #2F4F4F;
+}
+
+.navigation ul li {
+    
+    color: #2F4F4F;
+    
+    
+}
+
+.navigation ul li:not(:last-child) {
+    border: 1px solid #2F4F4F;
+    margin-right: 4rem;
+
+}
+
+.main-container {
+    width: 75%;
+   color:#2F4F4F;
+}
+}
+
+
+@media (min-width: 1024px) { 
+    .image-container {
+        background-image: url(../img/profile4.jpg)}
+
+    .container {
+            background-color: #4B0082;
+        
+        }
+
+ .header h1 {
+    
+            color:#FFD700;
+        }    
+
+        .footer {
+            color: #FFD700;
+        }
+
+        .footer ul li a {
+            color: #FFD700;
+        }
+
+      .navigation ul li {
+            
+            color: #FFD700;
+            
+            
+        }
+
+        .navigation ul li:not(:last-child) {
+            border: 1px solid white;
+            margin-right: 4rem;
+
+        }
+
+        .main-container {
+            width: 75%;
+           color:#FFD700;
+        }
+        
+       
+
+    /*change image-container background image*/
+    /*change document's background colour*/
+    /*change document's text colour*/
+    /*do not forget about borders!*/
+}
+
+
+@media (min-width: 1200px){
+    .image-container {
+        background-image: url(../img/profile2.jpg);
+    }
+
+    .container {
+        background-color: #F4A460;
+    }
+
+    /*change image-container background image*/
+    /*change document's background colour*/
+    /*change document's text colour*/
+    /*do not forget about borders!*/
+    .header h1 {
+        margin: 3rem auto;
+        color:white
+    }
+    .navigation ul li {
+        display: inline-block;
+        width: 16rem;
+        color: rgb(255, 255, 255);
+        
+        
+    }
+    
+    .navigation ul li:not(:last-child) {
+        border-bottom: 1px solid white;
+        margin-right: 4rem;
+        
+        
+    }
+
+    .main-container {
+        width: 75%;
+       color: rgb(255, 255, 255);
+    }
+
+    .footer {
+        color:white;
+    }
+
+    .footer ul li a {
+        color: white
+    }
+
+}
+
+
